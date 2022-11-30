@@ -1,7 +1,7 @@
 <div class="main-container">
     <app-string-view class="string-view-container" [item]="itemDisplay"></app-string-view>
     <div class="button-container">
-        <button mat-button color="primary" class="button-item pass" (click)="clickedPass()">Pass</button>
-        <button mat-button color="primary" class="button-item fail" (click)="clickedFail()">Fail</button>
+        <app-button-view class="button-item pass" (buttonClicked)="clickedPass($event)" title="Pass"></app-button-view>
+        <app-button-view class="button-item fail" (buttonClicked)="clickedFail()" title="Fail"></app-button-view>
     </div>
 </div>

@@ -34,7 +34,7 @@ export class RememberPlayerComponent implements OnInit {
     return this.contentList.length > 1 && item == this.itemDisplay ? this.getItem() : item;
   }
 
-  public clickedPass() {
+  public clickedPass(event: boolean) {
     let index = this.contentList.indexOf(this.itemDisplay)
     this.contentList.splice(index, 1);
 
