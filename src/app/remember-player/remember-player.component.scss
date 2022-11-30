@@ -1,0 +1,23 @@
+.main-container {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    .string-view-container {
+        width: 100%;
+    }
+    .button-container {
+        display:flex;
+        flex: 1;
+        justify-content: center;
+        .button-item{
+            margin: 20px;
+            width: 200px;
+            &.pass {
+                background-color: rgb(185, 229, 120);
+            }
+            &.fail {
+                background-color: rgb(246, 145, 145);
+            }
+        }
+    }
+}

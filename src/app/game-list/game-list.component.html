@@ -1,0 +1,3 @@
+<div class="main-component" *ngFor="let item of gameList; let i = index">
+    <button mat-button color="primary" class="item" (click)="clickedItem(i)">{{item}}</button>
+</div>

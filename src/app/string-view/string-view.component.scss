@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    .string-container {
+        font-size: 30em;
+        font-weight: 500;
+        font-family: Arial;
+    }
+}
